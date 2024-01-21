@@ -26,6 +26,7 @@
             colors: {
               clifford: "#da373d",
               "bike-primary": "#E76F51",
+              "bike-primary-bg": "rgba(231, 111, 81, 0.10)",
             },
           },
         },
@@ -40,7 +41,8 @@
   </head>
   <body class="font-poppins">
     <header class="md:container md:mx-auto">
-      <nav>
+      <!-- nav -->
+      <nav class="lg:mt-14 items-center">
         <div class="navbar bg-base-100">
           <div class="flex-1">
             <div class="dropdown">
@@ -77,7 +79,9 @@
                 </li> -->
               </ul>
             </div>
-            <a class="btn btn-ghost text-4xl font-bold">Biker Zone</a>
+            <a class="btn btn-ghost text-2xl lg:text-4xl font-bold"
+              >Biker Zone</a
+            >
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal text-base font-medium px-1">
@@ -98,12 +102,139 @@
           </div>
           <div class="">
             <a
-              class="btn w-40 h-16 bg-bike-primary text-[#fff] text-xl font-bold"
+              class="btn lg:w-40 lg:h-16 bg-bike-primary text-[#fff] text-xl lg:font-bold"
               >Login</a
             >
           </div>
         </div>
       </nav>
+      <!-- sileder or carousel -->
+      <div class="carousel w-full bg-bike-primary-bg lg:h-[550px] lg:mt-16">
+        <!-- slide 1 -->
+        <div id="slide1" class="carousel-item relative w-full">
+          <div class="flex flex-col lg:flex-row p-4 lg:p-24 items-center">
+            <!-- left -->
+            <div class="space-y-7 flex-1">
+              <h1 class="text-2xl lg:text-6xl font-bold">
+                Ride-on R15 V4 <br />
+                with Smile
+              </h1>
+              <p class="text-base font-light">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <button
+                class="btn w-40 h-16 bg-bike-primary text-[#fff] text-xl font-bold"
+              >
+                Purchase
+              </button>
+            </div>
+            <!-- right -->
+            <div class="flex-1">
+              <img src="images/slider/bike1.png" class="w-full" />
+            </div>
+          </div>
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <!-- slide 2 -->
+        <div id="slide2" class="carousel-item relative w-full">
+          <div class="flex flex-col lg:flex-row p-4 lg:p-24 items-center">
+            <!-- left -->
+            <div class="space-y-7 flex-1">
+              <h1 class="text-2xl lg:text-6xl font-bold">
+                Ride-on R15 V4 <br />
+                with Smile
+              </h1>
+              <p class="text-base font-light">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <button
+                class="btn w-40 h-16 bg-bike-primary text-[#fff] text-xl font-bold"
+              >
+                Purchase
+              </button>
+            </div>
+            <!-- right -->
+            <div class="flex-1">
+              <img src="images/slider/bike2.png" class="w-full" />
+            </div>
+          </div>
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <!-- slide 3 -->
+        <div id="slide3" class="carousel-item relative w-full">
+          <div class="flex flex-col lg:flex-row p-4 lg:p-24 items-center">
+            <!-- left -->
+            <div class="space-y-7 flex-1">
+              <h1 class="text-2xl lg:text-6xl font-bold">
+                Ride-on R15 V4 <br />
+                with Smile
+              </h1>
+              <p class="text-base font-light">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <button
+                class="btn w-40 h-16 bg-bike-primary text-[#fff] text-xl font-bold"
+              >
+                Purchase
+              </button>
+            </div>
+            <!-- right -->
+            <div class="flex-1">
+              <img src="images/slider/bike3.png" class="w-full" />
+            </div>
+          </div>
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <!-- slide 4 -->
+        <div id="slide4" class="carousel-item relative w-full">
+          <div class="flex flex-col lg:flex-row p-4 lg:p-24 items-center">
+            <!-- left -->
+            <div class="space-y-7 flex-1">
+              <h1 class="text-2xl lg:text-6xl font-bold">
+                Ride-on R15 V4 <br />
+                with Smile
+              </h1>
+              <p class="text-base font-light">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <button
+                class="btn w-40 h-16 bg-bike-primary text-[#fff] text-xl font-bold"
+              >
+                Purchase
+              </button>
+            </div>
+            <!-- right -->
+            <div class="flex-1">
+              <img src="images/slider/bike4.png" class="w-full" />
+            </div>
+          </div>
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
     </header>
     <main class="md:container md:mx-auto"></main>
     <footer></footer>
